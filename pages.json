@@ -1,0 +1,313 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTextStyle":"black",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance":50,
+				"app-plus": {
+					"titleNView":false
+				}
+			}
+		},
+		{
+			"path": "pages/index/indexSeach",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "首页搜索"
+			}
+		},
+		{
+			"path": "pages/company/details",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "公司详情"
+			}
+		},
+		{
+			"path": "pages/userinfo/modify",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "简历--个人信息修改"
+			}
+		},
+		{
+			"path": "pages/userinfo/Binding",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "个人信息--绑定手机"
+			}
+		},
+		{
+			"path": "pages/Industry/Industry",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "行业选择"
+			}
+		},
+		{
+			"path": "pages/Industry/category",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "职位选择-一级到二级"
+			}
+		},
+		{
+			"path": "pages/Industry/selection",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "职位选择三级"
+			}
+		},
+		{
+			"path": "pages/position/position",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "快速入职-职位选择"
+			}
+		},
+		{
+			"path": "pages/position/search",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "快速入职-请输入职位关键字"
+			}
+		},
+		{
+			"path": "pages/position/details",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "职位详情页"
+			}
+		},
+		{
+			"path": "pages/nearby/nearby",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "首页-附近职位"
+			}
+		},
+		{
+			"path": "pages/quickentry/quickentry",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "快速入职-搜索结果"
+			}
+		},
+		{
+			"path": "pages/quickentry/index",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "快速入职-首页"
+			}
+		},
+		{
+			"path": "pages/Parttimejob/Hotjobs",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "热门职业/全部职业"
+			}
+		},
+		{
+			"path": "pages/quickentry/complete",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "快速入职-首页-选择完成"
+			}
+		},
+		{
+			"path": "pages/Parttimejob/Parttimejob",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "首页-兼职"
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/news/seach",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "消息-搜索"
+			}
+		},
+		{
+			"path": "pages/resume/index",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "简历"
+			}
+		},
+		{
+			"path": "pages/resume/resume",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "简历--已填写"
+			}
+		},
+		{
+			"path": "pages/resume/resume-add",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "简历--未填写"
+			}
+		},
+		{
+			"path": "pages/resume/intention",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "简历--求职意向修改"
+			}
+		},
+		{
+			"path": "pages/resume/experience",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "简历--工作实习经历已填写"
+			}
+		},
+		{
+			"path": "pages/resume/education",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "简历--学历教育修改"
+			}
+		},
+		{
+			"path": "pages/resume/project",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "简历--项目经历已填写"
+			}
+		},
+		{
+			"path": "pages/resume/specialty",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "简历--专业技能编辑状态"
+			}
+		},
+		{
+			"path": "pages/resume/describe",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "简历--工作描述填写"
+			}
+		},
+		{
+			"path": "pages/resume/evaluation",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "简历--自我评价"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				// #ifndef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "大王招聘",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#6ED2CE",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabBar/tab-home.jpg",
+				"selectedIconPath": "static/tabBar/tab-home-current.jpg",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/resume/index",
+				"iconPath": "static/tabBar/tab-resume.jpg",
+				"selectedIconPath": "static/tabBar/tab-resume-current.jpg",
+				"text": "简历"
+			},
+			{
+				"pagePath": "pages/news/news",
+				"iconPath": "static/tabBar/tab-new.jpg",
+				"selectedIconPath": "static/tabBar/tab-new-current.jpg",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tabBar/tab-my.jpg",
+				"selectedIconPath": "static/tabBar/tab-my-current.jpg",
+				"text": "我的"
+			}
+		]
+	}
+}
